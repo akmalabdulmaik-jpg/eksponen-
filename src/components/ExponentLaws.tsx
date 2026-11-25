@@ -313,7 +313,7 @@ export const ExponentLaws: React.FC = () => {
                   id="law-a"
                   type="range"
                   min={2}
-                  max={6}
+                  max={10}
                   step={1}
                   value={paramA}
                   onChange={(e) => setParamA(Number(e.target.value))}
@@ -331,7 +331,7 @@ export const ExponentLaws: React.FC = () => {
                     id="law-b"
                     type="range"
                     min={2}
-                    max={5}
+                    max={10}
                     step={1}
                     value={paramB}
                     onChange={(e) => setParamB(Number(e.target.value))}
@@ -353,7 +353,7 @@ export const ExponentLaws: React.FC = () => {
                     id="law-m"
                     type="range"
                     min={1}
-                    max={5}
+                    max={10}
                     step={1}
                     value={paramM}
                     onChange={(e) => setParamM(Number(e.target.value))}
@@ -372,7 +372,7 @@ export const ExponentLaws: React.FC = () => {
                     id="law-n"
                     type="range"
                     min={1}
-                    max={4}
+                    max={10}
                     step={1}
                     value={paramN}
                     onChange={(e) => setParamN(Number(e.target.value))}
